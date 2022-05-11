@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+
+
+
+* {
+  background-color: rgb(1, 1, 55);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Gave each div a minimum view height in App.js */
+.App > div  {
+  min-height: 80vh;
+  background-color: rgb(1, 1, 55);
+  width: 100%;
+  color: mediumspringgreen;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  background-color: rgb(1, 1, 55) !important;
+  margin-top: -80px !important;
+  text-align: center !important;
+  
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* css for topnav */
+
+.navlink {
+  text-decoration: none !important;
+  color: mediumspringgreen !important;
+  font-style: oblique !important;
+  font-size: 25px !important;
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+/* css styling for each navlink */
+
+
+
+
+.navlink:hover{
+  background-color: black !important;
+  border: 3px solid aquamarine !important;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
