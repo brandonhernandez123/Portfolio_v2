@@ -36,6 +36,10 @@
   
 }
 
+.logo{
+  margin-left: -50px !important;
+}
+
 
 /* css styling for each navlink */
 
@@ -46,6 +50,12 @@
   background-color: black !important;
   border: 3px solid aquamarine !important;
   border-radius: 15px;
+}
+
+
+/* Styling for landing page */
+.landing{
+  text-align: center;
 }
 
 

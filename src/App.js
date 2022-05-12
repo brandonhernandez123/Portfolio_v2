@@ -1,4 +1,5 @@
 import './App.css'
+import Landing from './components/Landing'
 import Topnav from './components/Nav'
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
       <br />
       <br />
       <br />
+
+      <div className="landing">
+        <Landing />
+      </div>
       <div id="section1">
         <h2>Section 1</h2>
       </div>
