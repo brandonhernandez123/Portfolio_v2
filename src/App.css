@@ -19,7 +19,7 @@
   top: 0 !important;
   width: 100% !important;
   background-color: rgb(1, 1, 55) !important;
-  margin-top: -80px !important;
+  /* margin-top: -80px !important; */
   text-align: center !important;
   
   
@@ -37,8 +37,9 @@
 }
 
 .logo{
-  margin-left: -50px !important;
+  margin-left: -20px !important;
 }
+
 
 
 /* css styling for each navlink */
@@ -56,7 +57,49 @@
 /* Styling for landing page */
 .landing{
   text-align: center;
+  display: block;
 }
+.name {
+  font-size: 35px;
+  
+}
+
+.intro{
+  color: white;
+  font-size: 50px;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.mint{
+  color:mediumspringgreen;
+}
+
+.pitch {
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mex {
+  color: green;
+}
+
+.ico{
+  color: red;
+}
+
+/* @media screen and (max-width: 1000px) {
+    .intro{
+      margin: 0 auto;
+    }
+} */
+
+
+
+
 
 
 

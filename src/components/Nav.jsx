@@ -8,11 +8,11 @@ const Topnav = () => {
     return(
         <Navbar collapseOnSelect expand="lg" className="nav">
         <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand  title='logo' href="#home">
         <img
         src={logo}
-        width="270"
-        height="250"
+        width="170"
+        height="150"
         padding-right="200"
         className="logo"
         alt="React Bootstrap logo"
