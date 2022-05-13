@@ -141,6 +141,16 @@ border: solid 2px mediumspringgreen;
   color: white;
 }
 
+li {
+  list-style: none;
+}
+
+.softskills {
+  color: white;
+  background-color: rgb(1, 1, 39);
+
+}
+
 
 
 
