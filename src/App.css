@@ -1,15 +1,18 @@
 
 
 
-* {
+.App  {
   background-color: rgb(1, 1, 55);
 }
-
+body  {
+  background-color: rgb(1, 1, 55);
+}
 
 /* css for loading screen */
 .loading {
   text-align: center !important;
   margin: 0 auto;
+  background-color: rgb(1,1,55);
 }
 
 
@@ -128,6 +131,15 @@ border: solid 2px mediumspringgreen;
   
 }
 
+/* Styling for experience seciton */
+#section2 {
+  text-align: center;
+}
+
+.sei {
+  background-color: rgb(1, 1, 84);
+  color: white;
+}
 
 
 
