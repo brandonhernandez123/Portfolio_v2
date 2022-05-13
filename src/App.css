@@ -6,6 +6,13 @@
 }
 
 
+/* css for loading screen */
+.loading {
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+
 /* Gave each div a minimum view height in App.js */
 .App > div  {
   min-height: 80vh;
@@ -38,6 +45,7 @@
 
 .logo{
   margin-left: -20px !important;
+  
 }
 
 
