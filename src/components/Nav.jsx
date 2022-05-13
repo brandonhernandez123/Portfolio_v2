@@ -11,8 +11,8 @@ const Topnav = () => {
         <Navbar.Brand  title='logo' href="#home">
         <img
         src={logo}
-        width="170"
-        height="150"
+        width="200"
+        height="170"
         padding-right="200"
         className="logo"
         alt="React Bootstrap logo"

@@ -91,11 +91,34 @@
   color: red;
 }
 
-/* @media screen and (max-width: 1000px) {
-    .intro{
-      margin: 0 auto;
-    }
-} */
+/* styling for about section */
+#section1 {
+  text-align: center;
+  margin: 0 auto;
+ 
+}
+
+.brandon {
+border: solid 2px mediumspringgreen;
+}
+
+.brandon:hover{
+  border: solid white;
+}
+
+.aboutcol2 {
+  color: white;
+  padding-right: 100px;
+  
+  
+}
+
+@media screen and (max-width: 600px) {
+  .aboutcol2 {
+   padding-left: 100px !important;
+  }
+  
+}
 
 
 
