@@ -6,6 +6,7 @@ import Loading from './components/Loading'
 import { useState, useEffect } from 'react'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import Tech from './components/Tech'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -47,9 +48,10 @@ function App() {
             {' '}
             <Projects />
           </div>
+          <br />
           <div id="section4">
             {' '}
-            <h2>Section 4</h2>{' '}
+            <Tech />{' '}
           </div>
           <div id="section5">
             {' '}

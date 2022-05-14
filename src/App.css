@@ -171,6 +171,31 @@ li {
 }
 
 
+/* css for tech section */
+
+
+#section4 {
+  text-align: center;
+  background-color: rgb(1, 1, 46);
+
+  
+}
+
+.languages{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .languages {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+
+
 
 
 
