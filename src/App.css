@@ -155,12 +155,22 @@ li {
 
 #section3 {
   text-align: center;
-  
+  color: white;
 }
 
-.deployed{
-  text-align: center;
+.projecttitle{
+  color: mediumspringgreen;
 }
+
+.project{
+  color: white !important;
+}
+
+.project:hover{
+  border: solid mediumspringgreen;
+}
+
+
 
 
 

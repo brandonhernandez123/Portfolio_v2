@@ -5,43 +5,75 @@ import comicbookshelf from '../images/comicbookshelf.png'
 import Filmzilla from '../images/filmzilla.png'
 import mystery from '../images/murdermystery.png'
 import boxergram from '../images/boxergram.png'
+import beautiful from '../images/beautifulimage.png'
+import {BsGithub } from "react-icons/bs";
+
 
 
 const Projects = () => {
     return(
         <Container id='section3' fluid >
-            <h2>Projects</h2>
+            <h2 className='projecttitle'>Projects</h2>
+            <p>Click image to view demo or click github icon to view repository</p>
             <br/>
-            <h3>Deployed Projects</h3>
+            <h3 className='projecttitle'>Deployed Projects</h3>
             <Row>
                 
                 <Col className='deployed'>
-                <Image src={asphalt} height={150} width={300} alt='asphaltdemo' />
-                <h6>Asphalt Company Demo</h6>
+                <a href='https://asphalt-company-app.vercel.app/'>
+                <Image className='project' src={asphalt} height={150} width={300} alt='asphaltdemo' />
+                </a>
+                
+                <h6>Asphalt Company Demo | <a className='mint' href='https://github.com/brandonhernandez123/Asphalt-Company-App'><BsGithub /></a></h6>
                 
                 </Col>
                 <Col>
-                <Image height={150} width={300} src={comicbookshelf} alt='The Comic Bookshelf' />
-                <h6>The Comic BookShelf</h6>
+                <a href='https://thecomicbookshelf.herokuapp.com/'>
+                <Image className='project' height={150} width={300} src={comicbookshelf} alt='The Comic Bookshelf' />
+                </a>
+                <h6>
+                    
+                    The Comic BookShelf |  <a className='mint' href='https://github.com/brandonhernandez123/The-Comic-BookShelf'><BsGithub /> </a>
+                
+                </h6>
                 </Col>
                 <Col>
-                <Image height={150} width={300} src={Filmzilla} alt='filmzilla' />
-                <h6>Filmzilla</h6>
+                <a href='https://filmzilla.herokuapp.com/'>
+                <Image className='project' height={150} width={300} src={Filmzilla} alt='filmzilla' />
+                </a>
+                <h6>
+                    Filmzilla | <a className='mint' href="https://github.com/jinyangb/Filmzilla"><BsGithub /></a>
+                </h6>
                 </Col>
                 <Col>
-                    <Image height={150} width={300} src={mystery} alt='Mystery Game JavaScript' />
-                    <h6>Murder Mystery Js</h6>
+                    <a href='https://brandonhdzmurdermysteryjs.surge.sh/'>
+                    <Image className='project' height={150} width={300} src={mystery} alt='Mystery Game JavaScript' />
+                    </a>
+                    <h6>
+                        
+                        Murder Mystery Js | <a  className='mint' href='https://github.com/brandonhernandez123/Detective-point-and-click-adventure-js'><BsGithub /> </a>
+                    
+                    </h6>
                 </Col>
             </Row>
             <br/>
             <Row className='deployed'>
-                <h3>Currently in progress</h3>
+                <h3 className='projecttitle'>Currently in progress</h3>
                 <Col>
                 <Image  height={300} width={150}src={boxergram} alt ='boxergram' />
-                <h6>Boxergram</h6>
+                <h6>
+                    
+                    Boxergram | <a  className='mint' href='https://github.com/brandonhernandez123/Boxergram'><BsGithub /> </a>
+                
+                </h6>
                 </Col>
                 <Col>
-                
+                <Image height={150} width={300} src={beautiful} alt='beautiful image salon' />
+                <h6>
+                    Beautiful Image Salon | <a className='mint' href='https://github.com/brandonhernandez123/Beautiful-Image-Salon'><BsGithub /> </a>
+
+
+                </h6>
                 </Col>
             </Row>
         

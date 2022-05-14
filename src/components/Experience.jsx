@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { DiCode, DiCodeBadge } from "react-icons/di";
+import {  DiCodeBadge } from "react-icons/di";
 import { HiBriefcase, HiCode } from "react-icons/hi";
 import { RiCustomerService2Fill} from "react-icons/ri";
 
