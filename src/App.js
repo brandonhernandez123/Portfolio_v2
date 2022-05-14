@@ -5,6 +5,7 @@ import Topnav from './components/Nav'
 import Loading from './components/Loading'
 import { useState, useEffect } from 'react'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -44,7 +45,7 @@ function App() {
           </div>
           <div id="section3">
             {' '}
-            <h2>Section 3</h2>
+            <Projects />
           </div>
           <div id="section4">
             {' '}
