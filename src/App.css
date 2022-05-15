@@ -195,6 +195,28 @@ li {
 }
 
 
+/* css for contact form */
+
+#section5 {
+  text-align: center;
+  color: white;
+}
+
+input, textarea {
+  background-color: #2C2956;
+  color: mediumaquamarine;
+  width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  input, textarea{
+    width: 300px;
+    background-color: #2C2956;
+    color: green;
+  }
+}
+
+
 
 
 

@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Tech from './components/Tech'
+import Contact from './components/Contact'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -55,10 +56,10 @@ function App() {
           </div>
           <div id="section5">
             {' '}
-            <h2>Section 5</h2>
+            <Contact />
           </div>
-          <div id="contact">
-            <h2>Contact</h2>
+          <div id="bottomnav">
+            <h2>bottom nav</h2>
           </div>
         </div>
       ) : (
