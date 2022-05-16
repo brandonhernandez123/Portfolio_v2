@@ -29,7 +29,7 @@ body  {
   top: 0 !important;
   width: 100% !important;
   background-color: rgb(1, 1, 55) !important;
-  /* margin-top: -80px !important; */
+  
   text-align: center !important;
   
   
@@ -109,13 +109,7 @@ body  {
  
 }
 
-.brandon {
-border: solid 2px mediumspringgreen;
-}
 
-.brandon:hover{
-  border: solid white;
-}
 
 .aboutcol2 {
   color: white;
@@ -200,6 +194,7 @@ li {
 #section5 {
   text-align: center;
   color: white;
+  height: 100px !important;
 }
 
 input, textarea {
@@ -216,6 +211,10 @@ input, textarea {
   }
 }
 
+/* css for socials nav */
+.social:hover{
+  color: white !important;
+}
 
 
 

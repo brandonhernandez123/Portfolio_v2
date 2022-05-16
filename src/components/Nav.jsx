@@ -8,14 +8,14 @@ const Topnav = () => {
     return(
         <Navbar collapseOnSelect expand="lg" className="nav">
         <Container>
-        <Navbar.Brand  title='logo' href="#home">
+        <Navbar.Brand  title='logo'>
         <img
         src={logo}
         width="200"
         height="170"
         padding-right="200"
         className="logo"
-        alt="React Bootstrap logo"
+        alt="Brandon Hernandez"
       />
 
 
@@ -89,7 +89,7 @@ const Topnav = () => {
             </Nav.Link>
             </Link> 
             
-            <Nav.Link  className='navlink' eventKey={2} href="/resume">
+            <Nav.Link  className='navlink' eventKey={2} href="https://docs.google.com/document/d/1HmBjvgHa5Rcsmf_Xerbf2vzNjm1-kW0i2zndgF7HQuI/edit?usp=sharing">
               Resume
             </Nav.Link>
           </Nav>

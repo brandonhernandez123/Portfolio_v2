@@ -19,7 +19,7 @@ const About = () => {
                     </article>
                     <br/>
                     <article>
-                        Fast forward to July 2021, I had just gotten laid off from my job due to COVID and I decided that it was the perfect time to learn something I always admired. I signed up for General Assembly's Software Engineering Immersive program and from day one I was hooked once again as I was in High School. Everyday I was eager to learn more and more and the adreline that would hit everytime I solved a problem.
+                        Fast forward to July 2021, I had just gotten laid off from my job due to COVID and I decided that it was the perfect time to learn something I always admired. I signed up for General Assembly's Software Engineering Immersive program and from day one I was hooked once again. Everyday I was eager to learn more and more.
                     </article>
                     <br/>
                     <p> I am currently working on personal projects and in search of my first Software Engineer Position!</p>

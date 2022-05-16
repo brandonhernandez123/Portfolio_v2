@@ -8,6 +8,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Tech from './components/Tech'
 import Contact from './components/Contact'
+import Socials from './components/Socials'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -54,12 +55,14 @@ function App() {
             {' '}
             <Tech />{' '}
           </div>
-          <div id="section5">
+          <br />
+          <br />
+          <section id="section5">
             {' '}
             <Contact />
-          </div>
+          </section>
           <div id="bottomnav">
-            <h2>bottom nav</h2>
+            <Socials />
           </div>
         </div>
       ) : (

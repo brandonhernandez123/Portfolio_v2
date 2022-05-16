@@ -1,6 +1,7 @@
-import React, {useRef, useState, useEffect} from 'react'
-import {Container} from 'react-bootstrap'
+import React, {useRef, useState} from 'react'
+import {Col, Container, Row} from 'react-bootstrap'
 import { send } from 'emailjs-com'
+import {BsGithub, BsLinkedin } from "react-icons/bs";
 const Contact = () => {
     const form = useRef()
 
@@ -64,6 +65,21 @@ const Contact = () => {
             <br/>
             <input type="submit" value="Send"  />
         </form>
+        <br/>
+        <br/>
+        <footer id='footer'>
+            <Row id='footer'>
+                <Col>
+                <p>© 2022 Brandon Hernandez</p>
+                  <a href='https://github.com/brandonhernandez123'><BsGithub className='social'  size={45} color='mediumspringgreen'/></a>
+                  
+                  <a href='https://www.linkedin.com/in/brandonhdzgtz/'><BsLinkedin className='social' size={45} color='mediumspringgreen' /></a>
+                
+                </Col>
+          
+
+            </Row>
+        </footer>
         </Container>
     )
 }
