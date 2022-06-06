@@ -6,6 +6,7 @@ import Filmzilla from '../images/filmzilla.png'
 import mystery from '../images/murdermystery.png'
 import boxergram from '../images/boxergram.png'
 import beautiful from '../images/beautifulimage.png'
+import comic from '../images/comics.png'
 import {BsGithub } from "react-icons/bs";
 
 
@@ -18,7 +19,14 @@ const Projects = () => {
             <br/>
             <h3 className='projecttitle'>Deployed Projects</h3>
             <Row>
+            <Col className='deployed'>
+                <a href='https://thecomicbookshelfv2.herokuapp.com/'>
+                <Image className='project' src={comic} height={150} width={300} alt='comicbookshelfv2' />
+                </a>
                 
+                <h6>The Comic Bookshelf V2 | <a className='mint' href='https://github.com/brandonhernandez123/the-comic-bookshelfv2'><BsGithub /></a></h6>
+                
+                </Col>
                 <Col className='deployed'>
                 <a href='https://asphalt-company-app.vercel.app/'>
                 <Image className='project' src={asphalt} height={150} width={300} alt='asphaltdemo' />
