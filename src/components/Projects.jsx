@@ -7,6 +7,8 @@ import mystery from '../images/murdermystery.png'
 import boxergram from '../images/boxergram.png'
 import beautiful from '../images/beautifulimage.png'
 import comic from '../images/comics.png'
+import whosWho from '../images/whoswho.png'
+import dash from '../images/dashboard.png'
 import {BsGithub } from "react-icons/bs";
 
 
@@ -20,9 +22,29 @@ const Projects = () => {
             <h3 className='projecttitle'>Deployed Projects</h3>
             <Row>
             <Col className='deployed'>
+                <Image className='project' src={dash} height={150} width={300} alt='comicbookshelfv2' />
+                
+                <h6>Full Stack Team management Dashboard Application | <a className='mint' href='https://github.com/fasttrackd-student-work/group-final-sprint-7'><BsGithub /></a></h6>
+                
+                </Col>
+                <Col className='deployed'>
+                
+                <Image className='project' src={whosWho} height={150} width={300} alt='whos who' />
+                
+                
+                <h6>Who's Who - Javascript, React | <a className='mint' href='https://github.com/fasttrackd-student-work/react-assessment-whos-who-sprint-7-2022-team-1'><BsGithub /></a></h6>
+                
+                </Col>
+                <Col className='deployed'>
                 <a href='https://thecomicbookshelfv2.herokuapp.com/'>
-                <Image className='project' src={comic} height={150} width={300} alt='comicbookshelfv2' />
+                <Image className='project' src='https://pbs.twimg.com/media/FHE4BjdXEAAH3cX.jpg:large' height={150} width={300} alt='mock twitter api' />
                 </a>
+                
+                <h6>Mock Twitter API - Java, Spring Boot | <a className='mint' href='https://github.com/fasttrackd-student-work/spring-assessment-social-media-sprint-7-2022-team-2'><BsGithub /></a></h6>
+                
+                </Col>
+            <Col className='deployed'>
+                <Image className='project' src={comic} height={150} width={300} alt='comicbookshelfv2' />
                 
                 <h6>The Comic Bookshelf V2 | <a className='mint' href='https://github.com/brandonhernandez123/the-comic-bookshelfv2'><BsGithub /></a></h6>
                 

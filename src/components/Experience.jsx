@@ -17,6 +17,18 @@ const Experience = () => {
             
             <h2> <HiCode color='mediumspringgreen' /> Software Engineering Experience <HiCode color='mediumspringgreen'/></h2>
             <br/>
+            <h3>Fasttrack Developer</h3>
+            <h4>Cook Systems</h4>
+            <h6>July 2022 - Present</h6>
+            <br/>
+            <ul>
+                <li><DiCodeBadge color='mediumspringgreen' /> Applied practiced full-stack software engineering concepts to develop intuitive, responsive, and secure web applications using new technologies such as Java and Spring Boot.</li>
+                <br/>
+                <li> <DiCodeBadge color='mediumspringgreen' /> Designed and built full-stack applications while leveraging architectural modeling, prototyping, and version control tools for individual and collaborative projects.</li>
+                <br/>
+                <li> <DiCodeBadge color='mediumspringgreen' /> Developed frontend, backend & full stack applications using JavaScript, Java, React, Spring Boot, Postgres and more...</li>
+
+            </ul>
             <h3>Software Engineering Apprentice</h3>
             <h4>General Assembly</h4>
             <h6>July 2021 - Oct 2021</h6>
@@ -29,6 +41,8 @@ const Experience = () => {
                 <li> <DiCodeBadge color='mediumspringgreen' /> Developed frontend, backend & full stack applications using JavaScript, Python, React, Vue, MongoDb, Postgres and more...</li>
 
             </ul>
+            <br/>
+          
             </Col>
             <br/>
             <Col sm={6} className='softskills'>
