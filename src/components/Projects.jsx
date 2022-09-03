@@ -24,7 +24,7 @@ const Projects = () => {
             <Col className='deployed'>
                 <Image className='project' src={dash} height={150} width={300} alt='comicbookshelfv2' />
                 
-                <h6>Full Stack Team management Dashboard Application | <a className='mint' href='https://github.com/fasttrackd-student-work/group-final-sprint-7'><BsGithub /></a></h6>
+                <h6>Full Stack Team management Dashboard Application - Java, Spring Boot, Javascript, React | <a className='mint' href='https://github.com/fasttrackd-student-work/group-final-sprint-7'><BsGithub /></a></h6>
                 
                 </Col>
                 <Col className='deployed'>

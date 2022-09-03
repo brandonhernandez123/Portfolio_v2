@@ -2,6 +2,7 @@ import React from "react";
 import { Nav, Container, Navbar,  } from "react-bootstrap";
 import { Link } from "react-scroll/modules";
 import logo from '../images/logo.png'
+import resume from '../images/resume.pdf'
 
 
 const Topnav = () => {
@@ -89,7 +90,7 @@ const Topnav = () => {
             </Nav.Link>
             </Link> 
             
-            <Nav.Link  className='navlink' eventKey={2} href="https://docs.google.com/document/d/1HmBjvgHa5Rcsmf_Xerbf2vzNjm1-kW0i2zndgF7HQuI/edit?usp=sharing">
+            <Nav.Link  className='navlink' eventKey={2} href={resume}>
               Resume
             </Nav.Link>
           </Nav>
