@@ -16,6 +16,8 @@ const Tech = () => {
                 <Image src='https://i.imgur.com/kdPDZgh.png' height={64} width={64} alt='JavaScript' className='languages' />
                 <Image src='https://i.imgur.com/3FF5R6z.png' height={64} width={64} alt='Python' className='languages' />
                 <Image src='https://dev.java/assets/images/java-logo-vert-blk.png' height={64} width={64} alt='Java' className='languages' />
+                <Image src='https://static.cdnlogo.com/logos/c/27/c.svg' height={64} width={64} alt='C#' className='languages' />
+
 
                 <Image src='https://i.imgur.com/SHnIujV.png' height={64} width={64} alt='SQL' className='languages' />
 
@@ -53,6 +55,8 @@ const Tech = () => {
                 <Image src='https://i.imgur.com/ilgJ9pW.jpg' height={64} width={64} alt='Vercel' className='languages' />
                 <Image src='https://i.imgur.com/HLYSEq4.jpg' height={64} width={64} alt='Restful API' className='languages' />
                 <Image src='https://i.imgur.com/yUyjL9h.png' height={64} width={70} alt='Github' className='languages' />
+                <Image src='https://assets.stickpng.com/images/62e131df7fe3599fdd46ecb3.png' height={64} width={70} alt='Unity' className='languages' />
+
                 </Col>
             </Row>
 
