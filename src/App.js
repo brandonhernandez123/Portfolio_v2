@@ -9,6 +9,7 @@ import Projects from './components/Projects'
 import Tech from './components/Tech'
 import Contact from './components/Contact'
 import Socials from './components/Socials'
+import GameDevPortfolio from './components/GameDevPortfolio'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -49,6 +50,11 @@ function App() {
           <div id="section3">
             {' '}
             <Projects />
+          </div>
+          <br />
+          <div id="section3g">
+            {' '}
+            <GameDevPortfolio />
           </div>
           <br />
           <div id="section4">

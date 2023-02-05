@@ -164,6 +164,23 @@ li {
   border: solid mediumspringgreen;
 }
 
+#section3g {
+  text-align: center;
+  color: white;
+}
+
+.projecttitle{
+  color: mediumspringgreen;
+}
+
+.project{
+  color: white !important;
+}
+
+.project:hover{
+  border: solid mediumspringgreen;
+}
+
 
 /* css for tech section */
 
